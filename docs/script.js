@@ -92,7 +92,7 @@ var allQuestions = [
         question: "What you should not do?",
         choices: ["Washing hands frequently with soap & water or hand sanitizer", "Wearing masks outside home", "Use a tissue or cover face " +
         "with elbow while sneezing and coughing",
-            "Touching face or things with unwashed hands"],
+            "Sneeze on other person or open-air"],
 
         answer: 3
     },
