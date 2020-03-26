@@ -22,26 +22,72 @@ var questionNumber = 0,
 
 var allQuestions = [
     {
-        question: "Wash your hands with soap and water at for at least ______",
+        question: "Wash your hands with soap and water for at least _____",
         choices: ["1 Second", "5 Seconds", "20 - 30 Seconds", "10 Minutes"],
         answer: 2
     }
     , {
-        question: "What is forbidden for now to stop spreading the virus?",
+        question: "What is forbidden to prevent the virus from spreading?",
         choices: ["Sleeping", "Eating Foods", "Shaking Hands & Hugging", "Wearing masks"],
         answer: 2
     }
     , {
-        question: "What should you do now to prevent the virus from spreading in community?",
-        choices: ["Stay At Home", "Roaming Around Unnecessarily", "Visit Relatives Houses",
-            "Go On Party With Friends"],
+        question: "What should you do now to prevent the virus from spreading in  your community?",
+        choices: ["Stay at home & keep distance from eachother", "Roaming Around Unnecessarily",
+            "Visit Relatives Houses",
+            "Party With Friends"],
         answer: 0
     }
     , {
-        question: "Don't touch you face, nose, eyes without _________",
+        question: "Don't touch you face, nose, eyes without _________ first",
         choices: ["Dirty Hands", "Cleaning Hands", "Having Food", "Going Outside"],
         answer: 1
+    },
+    {
+        question: "Which of these is not a trusted news source?",
+        choices: ["WHO(World Health Organisation)", "Verified Government Sources", "Verified International Sources",
+            "Unverified Social Media Pages"],
+
+        answer: 3
+    },
+    {
+        question: "What is the minimum period of quarantine for COVID-19?",
+        choices: ["1 Day", "10 Hours", "14 Days",
+            "5 Minutes"],
+
+        answer: 2
+    },
+    {
+        question: "What is meant by Social Distancing?",
+        choices: ["Maintaining physical distancing from everyone", "Blocking people at social websites",
+            "Family get together",
+            "Vacation trip with friends"],
+
+        answer: 0
+
+    },
+    {
+        question: "Select one option that you should do as an aware citizen:",
+        choices: ["Spread panic", "Spread rumor", "Spread awareness & follow government instructions.",
+            "Spread propaganda"],
+
+        answer: 2
+    },
+    {
+        question: "What should you do if you notice the symptoms of COVID-19 in yourself?",
+        choices: ["Going outside to have a walk", "Start doing panic", "Stay away from others and seek proper medical help",
+            "Spend quality time with family members"],
+
+        answer: 2
+    },
+    {
+        question: "How can you contribute in the fight against virus?",
+        choices: ["Not following instructions","Going outside & creating crowd", "Following the instructions of government properly",
+            "Believing misconceptions about the virus"],
+
+        answer: 2
     }
+
 ];
 
 // continue with next question or end
