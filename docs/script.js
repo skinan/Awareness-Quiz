@@ -83,7 +83,7 @@ var allQuestions = [
     {
         question: "How can you contribute in the fight against virus?",
         choices: ["Not following instructions","Going outside & creating crowd", "Following the instructions of government properly",
-            "Believing misconceptions about the virus"],
+            "Believing in misconceptions about the virus"],
 
         answer: 2
     }
