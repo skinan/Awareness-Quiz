@@ -1,0 +1,102 @@
+* {
+    font-family: "Oswald", "Roboto", sans-serif;
+}
+
+body {
+    background: linear-gradient(-55deg, #eee400, #e73c7e, #c74bd5, #0c7ed5) fixed;
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    width: 220px;
+    font-size: 20px;
+    margin: 12px 0;
+    padding: 10px 0;
+    display: inline-block;
+    background-color: #1c313a;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    outline: none;
+    border: none;
+}
+
+button:active {
+    background-color: #95a5a6;
+}
+
+.correctStyle {
+    background-color: #2bcc00;
+}
+
+.incorrectStyle {
+    background-color: #e70000;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.titleHeaderfont {
+    color: #1c313a;
+}
+
+.quesHeaderfont {
+    color: #fff1f1;
+}
+
+
+.allCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btnz {
+    display: inline-block;
+    width: 220px;
+    font-size: 20px;
+    margin: 12px 0;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    background-color: #ececec;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.facebook {
+    background-color: #3062f8;
+}
+
+.facebook:hover {
+    background-color: #0000ff;
+}
