@@ -71,8 +71,9 @@ function end() {
     $("h2").text("You scored " + totalCorrect + " out of " + allQuestions.length + "." + "You are " +
         ((totalCorrect / allQuestions.length) * 100) + "% aware!");
     $("#try-again-container").show();
-    $('meta[property =og\\:title]').attr('content',"I scored " + ((totalCorrect / allQuestions.length) * 100) + "% on COVID-19 Awareness Quiz. " +
+    $('meta[property ="og:title"]').attr('content',"I scored " + ((totalCorrect / allQuestions.length) * 100) + "% on COVID-19 Awareness Quiz. " +
     "It's your turn now!");
+    //jQuery("meta[property='og\\:url']").attr("content", url);
     //$('#mdescription').attr('content', 'my new meta description');
     //$('title').html('my new meta title');
     restart();
