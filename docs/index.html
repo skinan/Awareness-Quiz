@@ -1,63 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="./style.css">
-
     <!-- SEO Meta Tags -->
-    <meta name="author" content = "Magpie-Robins">
+    <meta name="author" content="Magpie-Robins">
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-    <meta property="og:site_name" content = "COVID-19 Awarness Quiz"/> <!-- website name -->
-    <meta property="og:site" content = "https://skinan.github.io/Awareness-Quiz/"/> <!-- website link -->
-    <meta property="og:title" content="COVID-19 Awareness Quiz"/> <!-- title shown in the actual shared post -->
-    <meta property="og:description" content="Play the COVID-19 awareness quiz! Be aware! Spread Awareness!"/> <!-- description shown in the actual shared post -->
-    <meta property="og:image" content=""/> <!-- image link, make sure it's jpg -->
-    <meta property="og:url" content="https://skinan.github.io/Awareness-Quiz"/> <!-- where do you want your post to link to -->
-    <meta property="og:type" content="article"/>
+    <meta property="og:site_name" content="COVID-19 Awarness Quiz" />
+    <!-- website name -->
+    <meta property="og:site" content="https://skinan.github.io/Awareness-Quiz/" />
+    <!-- website link -->
+    <meta property="og:title" content="COVID-19 Awareness Quiz" />
+    <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="Play the COVID-19 awareness quiz! Be aware! Spread Awareness!" />
+    <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" />
+    <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="https://skinan.github.io/Awareness-Quiz" />
+    <!-- where do you want your post to link to -->
+    <meta property="og:type" content="article" />
+    <!--  -->
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '532398964372093',
+                xfbml: true,
+                version: 'v6.0'
+            });
+            FB.AppEvents.logPageView();
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
     <h4 class="quesHeaderfont">#stay_home #stay_safe #stay_aware</h4>
-
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<html>
-<body ontouchstart="">
-<div class="allCenter">
-    <h1 class="titleHeaderfont">COVID-19 Awarness Quiz</h1>
-    <h3></h3>
-    <h2 class="quesHeaderfont"></h2> <!-- Questions Are Coming In This Header -->
-    <div id="try-again-container" style=display:none;>
-        <button id="try-again">Try Again</button>
-        <!-- Facebook Share Button -->
-        <div>
-            <a class="btnz share facebook"
-               href="https://www.facebook.com/sharer/sharer.php?u=https://skinan.github.io/Awareness-Quiz/"><i
+    <!-- partial:index.partial.html -->
+    <html>
+
+    <body ontouchstart="">
+        <div class="allCenter">
+            <h1 class="titleHeaderfont">COVID-19 Awarness Quiz</h1>
+            <h3></h3>
+            <h2 class="quesHeaderfont"></h2>
+            <!-- Questions Are Coming In This Header -->
+            <div id="try-again-container" style=display:none;>
+                <button id="try-again">Try Again</button>
+                <!-- Facebook Share Button -->
+                <div>
+                    <a class="btnz share facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://skinan.github.io/Awareness-Quiz/"><i
                     class="fa fa-facebook"></i> Share To Facebook</a>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <button class="submit-answer" id="0"></button>
+                </li>
+                <li>
+                    <button class="submit-answer" id="1"></button>
+                </li>
+                <li>
+                    <button class="submit-answer" id="2"></button>
+                </li>
+                <li>
+                    <button class="submit-answer" id="3"></button>
+                </li>
+            </ul>
+            <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+            <script language="javascript" src="quiz.js"></script>
         </div>
-    </div>
-    <ul>
-        <li>
-            <button class="submit-answer" id="0"></button>
-        </li>
-        <li>
-            <button class="submit-answer" id="1"></button>
-        </li>
-        <li>
-            <button class="submit-answer" id="2"></button>
-        </li>
-        <li>
-            <button class="submit-answer" id="3"></button>
-        </li>
-    </ul>
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script language="javascript" src="quiz.js"></script>
-</div>
-</body>
-</html>
-<!-- partial -->
-<script src="./script.js"></script>
+    </body>
+
+    </html>
+    <!-- partial -->
+    <script src="./script.js"></script>
 
 </body>
+
 </html>
