@@ -71,7 +71,7 @@ function end() {
     $("h2").text("You scored " + totalCorrect + " out of " + allQuestions.length + "." + "You are " +
         ((totalCorrect / allQuestions.length) * 100) + "% aware!");
     $("#try-again-container").show();
-    $("#metaTitle").change("I scored " + ((totalCorrect / allQuestions.length) * 100) + "% on COVID-19 Awareness Quiz. " +
+    $("title").html("I scored " + ((totalCorrect / allQuestions.length) * 100) + "% on COVID-19 Awareness Quiz. " +
     "It's your turn now!");
     restart();
 }
