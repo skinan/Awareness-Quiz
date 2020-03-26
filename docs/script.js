@@ -116,7 +116,7 @@ var allQuestions = [
             "Following proper health instructions given by verified health organisations",
             "Not maintaining cleanliness and hygiene "],
 
-        answer: 0
+        answer: 3
 
     }
 
