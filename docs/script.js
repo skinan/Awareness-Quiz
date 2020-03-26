@@ -23,7 +23,7 @@ var questionNumber = 0,
 var allQuestions = [
     {
         question: "Wash your hands with soap and water at for at least ______",
-        choices: ["1 Second", "5 Second", "20 - 30 Second", "10 Minutes"],
+        choices: ["1 Second", "5 Seconds", "20 - 30 Seconds", "10 Minutes"],
         answer: 2
     }
     , {
@@ -68,7 +68,7 @@ function question(questionNum) {
 function end() {
     $("h3").text("Share it with your friends. Raise awareness!");
     $("ul").hide();
-    $("h2").text("You scored " + totalCorrect + " out of " + allQuestions.length + "." + "You are " +
+    $("h2").text("You scored " + totalCorrect + " out of " + allQuestions.length + "." + " You are " +
         ((totalCorrect / allQuestions.length) * 100) + "% aware!");
     $("#try-again-container").show();
     $('#share-facebook').attr('href', "https://www.facebook.com/dialog/feed?app_id=532398964372093&display=popup&link=" +
