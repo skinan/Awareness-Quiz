@@ -117,96 +117,93 @@
             optionFinal = 0;
 
         var allQuestions = [{
-                question: "Wash your hands with soap and water for at least _____ every time",
-                choices: ["1 Second", "5 Seconds", "20 - 30 Seconds", "10 Minutes"],
+                question: "প্রতিবার কমপক্ষে কতক্ষণ ধরে সাবান এবং পানি দিয়ে হাত ধোয়া উচিত?",
+                choices: ["১ সেকেন্ড", "৫ সেকেন্ড", "২০ - ৩০ সেকেন্ড", "১০ মিনিট"],
                 answer: 2
             }, {
-                question: "What is forbidden to prevent the virus from spreading?",
-                choices: ["Sleeping", "Eating foods", "Shaking hands & hugging", "Wearing masks"],
+                question: "কোন কাজটি করা নিষেধ?",
+                choices: ["ঘুমানো", "খাবার গ্রহণ", "করমর্দন করা বা হাত মেলানো এবং আলিঙ্গন করা", "মাস্ক পরিধান করা"],
                 answer: 2
             }, {
-                question: "What is your duty to prevent the virus from spreading in  your community or locality?",
-                choices: ["Staying at home & keeping physical distance from each other", "Roaming around unnecessarily",
-                    "Visiting relatives' houses",
-                    "Doing party with friends"
+                question: "ভাইরাসটি আপনার সম্প্রদায় বা এলাকায় ছড়িয়ে পড়া প্রতিরোধ করার জন্য আপনার কর্তব্য কী?",
+                choices: ["বাড়িতে থাকা এবং একে অপরের থেকে শারীরিক দূরত্ব বজায় রাখুন", "অযথা বাহিরে ঘুরাঘুরি করা",
+                    "আত্মীয়-স্বজনদের বাড়িতে ঘুরতে যাওয়া",
+                    "বন্ধুদের সাথে মিলে আনন্দ উৎসব পালন করা"
                 ],
                 answer: 0
             }, {
-                question: "Don't touch your face, nose, eyes with _________",
-                choices: ["Sleeping", "Unclean hands", "Having food", "Clean hands"],
+                question: "_________ আপনার মুখ, নাক, চোখ স্পর্শ করবেন না",
+                choices: ["না ঘুমিয়ে", "অপরিস্কার হাত দ্বারা", "খাবার না খেয়ে", "পরিস্কার হাতে"],
                 answer: 1
             }, {
-                question: "Which of these is not a trusted news source?",
-                choices: ["WHO(World Health Organization)", "Verified Government Sources", "Verified International Sources",
-                    "Unverified Social Media Page"
+                question: "এর মধ্যে কোনটি বিশ্বস্ত সংবাদ উৎস নয়?",
+                choices: ["বিশ্ব স্বাস্থ্য সংস্থা", "অনুমোদিত সরকারী সূত্র", "অনুমোদিত আন্তর্জাতিক সূত্র",
+                    "সোশ্যাল মিডিয়া ওয়েবসাইট এ বিদ্যমান ভিত্তিহীন সূত্র"
                 ],
 
                 answer: 3
             }, {
-                question: "What is the minimum length of self-quarantine for all to prevent COVID-19 from spreading?",
-                choices: ["1 Day", "10 Hours", "14 Days",
-                    "5 Minutes"
+                question: "COVID-19 এর বিস্তার প্রতিরোধে সর্বনিম্ন কতদিন সেলফ কোয়ারেন্টাইনে থাকতে হবে?",
+                choices: ["১ দিন", "১০ ঘণ্টা", "১৫ দিন",
+                    "৫ মিনিট"
                 ],
 
                 answer: 2
             }, {
-                question: "What is meant by Social Distancing?",
-                choices: ["Maintaining proper physical distance from everyone", "Blocking people at social websites",
-                    "Family get together",
-                    "Vacation trip with friends"
+                question: "সামাজিক দূরত্ব বলতে কী বোঝায়?",
+                choices: ["প্রত্যেকের থেকে যথাযথ শারীরিক দূরত্ব বজায় রাখা", "সামাজিক ওয়েবসাইটে লোকেদের ব্লক করা",
+                    "পারিবারিক মিলনমেলা", "বন্ধুদের সাথে অবকাশ ভ্রমণ"
                 ],
 
                 answer: 0
 
             }, {
-                question: "Select one option that you should do as an aware citizen:",
-                choices: ["Spread panic", "Spread rumor", "Spread awareness & follow government instructions.",
-                    "Spread propaganda"
+                question: "সচেতন নাগরিক হিসাবে আপনার করা উচিত এমন একটি বিকল্প নির্বাচন করুন:",
+                choices: ["আতঙ্ক ছড়ানো", "গুজব ছড়ানো", "সচেতনতা ছড়ানো এবং সরকারী নির্দেশাবলী অনুসরণ করা",
+                    "মিথ্যাচার ছড়ানো "
                 ],
 
                 answer: 2
             }, {
-                question: "What should you do if you notice the symptoms of COVID-19 in yourself?",
-                choices: ["Going outside to have a walk", "Start doing panic", "Keep distance from others and seek proper medical help",
+                question: "নিজের মধ্যে COVID-19 এর লক্ষণগুলি লক্ষ্য করলে আপনার কী করা উচিত?",
+                choices: ["নিশ্চিন্তে বাহিরে ঘরাঘুরি করা", "আতঙ্কিত হওয়া", "অন্যদের থেকে দূরত্ব বজায় রাখা এবং যথাযথ চিকিৎসা সহায়তা নেওয়া",
                     "Spend quality time with family members"
                 ],
 
                 answer: 2
             }, {
-                question: "How can you contribute in the fight against the virus?",
-                choices: ["Not following instructions", "Going outside & creating crowd", "Staying at home & " +
-                    "following the instructions of the government & the health organizations properly",
-                    "Believing in misconceptions about the virus"
+                question: "কিভাবে আপনি করোনা ভাইরাস প্রতিরোধে অংশ নিবেন?",
+                choices: ["নির্দেশনা অনুসরণ না করার মাধ্যমে", "ঘরের বাহিরে গিয়ে এবং ভীড় তৈরী করে বা অধিক মানুষের মাঝে অবস্থান করে", "ঘরে অবস্থান করার পাশাপাশি সরকারী নির্দেশনাসমূহ মেনে চলে",
+                    "ভাইরাস সম্পর্কিত গুজব এবং ভ্রান্ত ধারণাগুলোতে বিশ্বাস করে"
                 ],
 
                 answer: 2
             }, {
-                question: "What you should not do?",
-                choices: ["Washing hands frequently with soap & water or hand sanitizer", "Wearing masks outside home", "Use a tissue or cover face " +
-                    "with elbow while sneezing and coughing",
-                    "Sneeze on other person or open-air"
+                question: "কোন কাজটি করা উচিত হবে না আপনার?",
+                choices: ["ঘন ঘন সাবান পানি অথবা হ্যান্ড স্যানিটাইজার দিয়ে হাত ধোয়া", "ঘরের বাহিরে সুরক্ষা মাস্ক ব্যাবহার করা", "হাচি-কাশির সময় টিস্যু বা কনুইয়ের ব্যাবহার করা",
+                    "অন্যের সম্মুখে বা খোলাখুলিভাবে হাচি-কাশি দেওয়া"
                 ],
 
                 answer: 3
             }, {
-                question: "How to confirm the presence of COVID-19 in anyone's body?",
-                choices: ["Proper medical test by verified authority", "Asking your best friend", "Asking your neighbour",
-                    "Through discussion with random persons in social media"
+                question: "আপনি বা আপনার নিকটস্থ কেউ করোনা ভাইরাসে আক্রান্ত কিনা তা কিভাবে নিশ্চিত হবেন?",
+                choices: ["সরকারদ্বারা যাচাইকৃত জায়গা হতে সঠিক মেডিক্যাল টেস্টে অংশ নিয়ে", "আপনার কাছের কোন বন্ধুকে জিজ্ঞাসা করে", "আপনার কোনো প্রতিবেশীর সাথে আলোচনায় করে",
+                    "সামাজিক যোগাযোগ মাধ্যমগুলোতে বিভিন্ন আলোচনায় অংশ নিয়ে"
                 ],
 
                 answer: 0
             }, {
-                question: "The virus effected person should be kept __________",
-                choices: ["In isolation & proper medical treatment", "With healthy people", "With other effected people",
-                    "With famliy & friends"
+                question: "করোনায় আক্রান্ত ব্যাক্তিকে রাখতে হবে ________",
+                choices: ["সকলের থেকে বিচ্ছিন্ন এবং দিতে হবে সঠিক চিকিৎসা", "অন্যান্য সুস্থ ব্যাক্তিদের সংস্পর্শে", "অন্যান্য আক্রান্ত ব্যাক্তিদের সংস্পর্শে",
+                    "পরিবার, আত্মীয়স্বজন, বন্ধু-বান্ধবদের মাঝে"
                 ],
 
                 answer: 0
             }, {
-                question: "What you should not do?",
-                choices: ["Cleaning & disinfecting frequently touched objects", "Boiling your food properly while cooking",
-                    "Following proper health instructions given by verified health organisations",
-                    "Not maintaining cleanliness and hygiene "
+                question: "কোন কাজটি করা উচিত হবে না আপনার?",
+                choices: ["Cleaning & disinfecting frequently touched objects", "খাবার সঠিকভাবে এবং সঠিকসময় ধরে সিদ্ধ করে খাওয়া",
+                    "যাচাইকৃত প্রতিষ্ঠান এবং সংগঠনগুলো থেকে প্রদানকৃত নির্দেশনাসমূহ মেনে চলা",
+                    "সঠিক পরিষ্কার পরিচ্ছন্নতা পরিহার করা"
                 ],
 
                 answer: 3
