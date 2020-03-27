@@ -100,3 +100,8 @@ img {
 .facebook:hover {
     background-color: #0000ff;
 }
+
+.p-small {
+    color: #FFFFFF;
+    font: 400 0.75rem/1.25rem "Open Sans", sans-serif;
+}
