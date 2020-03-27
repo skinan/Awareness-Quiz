@@ -155,9 +155,7 @@ function end() {
         "https://skinan.github.io/Awareness-Quiz/&quote=I scored " +
         totalCorrect + " out of " + allQuestions.length + ". I am "
         + Math.floor(((totalCorrect / allQuestions.length) * 100)) + "%" + " aware! It's your turn now!" + "&redirect_uri=https://facebook.com");
-    //jQuery("meta[property='og\\:url']").attr("content", url);
-    //$('#mdescription').attr('content', 'my new meta description');
-    //$('title').html('my new meta title');
+
     restart();
 }
 
