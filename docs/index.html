@@ -111,7 +111,7 @@
             optionFinal = 0;
 
         var allQuestions = [{
-                question: "Select your language?",
+                question: "Select your language",
                 choices: ["English", "Bangla"],
                 answer: 0
             }
@@ -167,8 +167,7 @@
                 $("#" + userAnswer).addClass("correctStyle");
                 totalCorrect++;
             } else {
-                $("#" + userAnswer).addClass("incorrectStyle");
-                $("#" + correctAnswer).addClass("correctStyle");
+                $("#" + userAnswer).addClass("correctStyle");
             }
         }
     </script>
