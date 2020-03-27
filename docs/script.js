@@ -22,36 +22,36 @@ var questionNumber = 0,
 
 var allQuestions = [
     {
-        question: "Wash your hands with soap and water for at least _____",
+        question: "Wash your hands with soap and water for at least _____ every time",
         choices: ["1 Second", "5 Seconds", "20 - 30 Seconds", "10 Minutes"],
         answer: 2
     }
     , {
         question: "What is forbidden to prevent the virus from spreading?",
-        choices: ["Sleeping", "Eating Foods", "Shaking Hands & engaging in physical contact", "Wearing masks"],
+        choices: ["Sleeping", "Eating foods", "Shaking hands & hugging", "Wearing masks"],
         answer: 2
     }
     , {
-        question: "What should you do now to prevent the virus from spreading in  your community?",
-        choices: ["Stay at home & keep physical distance from each other", "Roaming Around Unnecessarily",
-            "Visit Relatives Houses",
-            "Party With Friends"],
+        question: "What is your duty to prevent the virus from spreading in  your community or locality?",
+        choices: ["Staying at home & keeping physical distance from each other", "Roaming around unnecessarily",
+            "Visiting relatives' houses",
+            "Doing party with friends"],
         answer: 0
     }
     , {
-        question: "Don't touch you face, nose, eyes without _________ first",
-        choices: ["Sleeping", "Cleaning Hands", "Having Food", "Going Outside"],
+        question: "Don't touch your face, nose, eyes with _________",
+        choices: ["Sleeping", "Unclean hands", "Having food", "Clean hands"],
         answer: 1
     },
     {
         question: "Which of these is not a trusted news source?",
-        choices: ["WHO(World Health Organisation)", "Verified Government Sources", "Verified International Sources",
-            "Unverified Social Media Pages"],
+        choices: ["WHO(World Health Organization)", "Verified Government Sources", "Verified International Sources",
+            "Unverified Social Media Page"],
 
         answer: 3
     },
     {
-        question: "What is the minimum length of self-quarantine for COVID-19?",
+        question: "What is the minimum length of self-quarantine for all to prevent COVID-19 from spreading?",
         choices: ["1 Day", "10 Hours", "14 Days",
             "5 Minutes"],
 
@@ -83,7 +83,7 @@ var allQuestions = [
     {
         question: "How can you contribute in the fight against the virus?",
         choices: ["Not following instructions","Going outside & creating crowd", "Staying at home & " +
-        "following the instructions of government properly",
+        "following the instructions of the government & the health organizations properly",
             "Believing in misconceptions about the virus"],
 
         answer: 2
@@ -99,7 +99,7 @@ var allQuestions = [
     {
         question: "How to confirm the presence of COVID-19 in anyone's body?",
         choices: ["Proper medical test by verified authority", "Asking your best friend", "Asking your neighbour",
-            "Discussion in social media"],
+            "Through discussion with random persons in social media"],
 
         answer: 0
     },
