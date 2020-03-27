@@ -45,6 +45,19 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162070940-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-162070940-1');
+    </script>
+
     <title>COVID-19 Awarness Quiz</title>
 </head>
 
@@ -111,11 +124,10 @@
             optionFinal = 0;
 
         var allQuestions = [{
-                question: "Select your language",
-                choices: ["English", "Bangla"],
-                answer: 0
-            }
-        ];
+            question: "Select your language",
+            choices: ["English", "Bangla"],
+            answer: 0
+        }];
 
         // continue with next question or end
         var start = function(questionNumber) {
@@ -140,10 +152,10 @@
 
         function end() {
             if (totalCorrect == 1) {
-  				window.location.href = "quiz/en.html";
-			} else {
-				window.location.href = "quiz/bn.html";
-			}
+                window.location.href = "quiz/en.html";
+            } else {
+                window.location.href = "quiz/bn.html";
+            }
         }
 
         function restart() {
